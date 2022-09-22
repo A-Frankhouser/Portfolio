@@ -5,10 +5,6 @@
     padding: 0px;
 }
 
-html {
-    width: 100%;
-}
-
 /* Header */
 
 header {
@@ -18,7 +14,7 @@ header {
 .name {
     color: black;
     line-height: 1;
-    width: 105%;
+    width: 100%;
 }
 /* Title */
 .name h1 {
@@ -63,17 +59,12 @@ nav {
 /* Hero */
 .hero {
     height: 400px;
-    width: 105%;
+    width: 100%;
     background-size: cover;
     background-position: center;
     border-bottom: 4px black solid;
 }
 
-
-/* Body */
-body {
-    width: 96%;
-}
 
 /* Section */
 section {
@@ -85,7 +76,7 @@ section {
     margin-top: 25px;
     background-color: white;
     display: block;
-    width: 100%;
+    width: 96%;
 }
 
 /* Content Container */
@@ -98,6 +89,7 @@ section {
     display: flex;
     margin-bottom: 25px;
     flex-wrap: wrap;
+    width: 100%;
     
 }
 
@@ -105,7 +97,7 @@ section {
 .content-title {
     font-size: 35px;
     margin-bottom: 10px;
-    font-style: bolder;
+    font-style: italic;
     margin-top: 10px;
     margin-left: 25px;
     flex-direction: column;
@@ -123,23 +115,24 @@ section {
 .about-me-content {
     margin-left: 10px;
     flex-direction: column;
-    width: 65%;
+    width: 50%;
     margin-top: 85px;
     margin-right: 40px;
     display: flex;
 }
 /* Img in About Me section */
-img.about-me {
+.about-me {
     height: 300px;
     border: 4px black solid;
-    border-image-width: auto;
     border-radius: 4px;
     margin-top: 25px;
     margin-bottom: 25px;
     flex-direction: column;
-    display: flex;
-    justify-content: center;
-    width: auto;
+}
+
+.about-me img {
+    width: 100%;
+    height: 100%;
 }
  /* Projects*/
 .content-title_2 {
@@ -227,14 +220,19 @@ figure p {
     margin-top: 15px;
     margin-bottom: 10px;
     font-style: italic;
-    font-weight: 500;
+    font-weight: 600;
 }
 
+.content-container_3 h2 {
+    font-style: italic;
+}
 /* Footer */
 footer {
     background-color: forestgreen;
     line-height: 2;
     text-align: center;
     font-size: 25px;
-    width: 105%;
+    width: 100%;
 }
+
+/* Media Query *
